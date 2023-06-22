@@ -1,0 +1,3 @@
+api to connect 
+to map seat "http://localhost:3000/create"
+to book and unbook:http://localhost:3000/book-some-seats/12906

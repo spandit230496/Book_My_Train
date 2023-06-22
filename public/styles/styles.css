@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+ 
+}
+
+main {
+    color: #fff;
+    padding: 2rem 0;
+    
+}
+
+h2, h3 {
+    text-align: center;
+    color:black
+}
+
+.container {
+    border-radius: 12px;
+    background-color: white;
+    position: relative;
+    padding-top: 16px;
+    width: 5vw;
+    padding-bottom: 16px;
+    border: 1px solid black;
+}
+.btn-outline-warning{
+    color: yellow;
+    background: black;
+    height: 3rem;
+    border-radius: 0.5rem;
+}
+.counter-item{
+    color: black;
+}
+.home-btn {
+    position: absolute;
+    right: 16px;
+    top: -63px;
+}
+
+.header{
+    height: 3rem;
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 3px;
+    }
+
+    h3 {
+        font-size: 20px !important;
+    }
+}
+
+.bold-text {
+    color: #000;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.data {
+    padding: 2rem 0;
+    height: auto;
+}
+
+label {
+    color: blue;
+    font-weight: 700;
+}
+.data input{
+    border:2px solid black;
+    font-weight: 700;
+}
+.seat-counter {
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+}
+
+.counter-item {
+    width: 3rem !important;
+    height: 3rem;
+    border: 2px solid black;
+    background: black;
+    font-size: 2rem;
+    color: white;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#seatsCount {
+    color: #000;
+    padding: 10px;
+}
+
+.alert {
+    opacity: 0;
+}
+
+.highlight {
+    color: chartreuse;
+}
+
+.train-icon {
+    margin-right: 10px;
+}
+
+.hl {
+    color: #FECB03;
+}
+
+.seat-status {
+    display: flex;
+    height: 3rem;
+    justify-content: flex-end;
+    
+}
+
+.seat-status-item {
+    display: flex;
+    margin-right: 1rem;
+    color:black;
+   
+}
+
+.seat-status-box {
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.booked {
+    background-color: gray;
+}
+
+.vacant {
+    background-color: #fff;
+}
+
+.user-seats {
+    background-color: chartreuse;
+}
+
+.coach-container {
+    justify-content: center;
+}
+
+.coach {
+    background-color: #fff;
+    padding: 1rem;
+    color: black;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+
+.coach-row {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    height: 1rem;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+
+.coach-seat {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 1.5rem;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #262626;
+   
+}
+
+.train-info {
+    border-bottom: 1px solid gray;
+    text-align: center;
+    font-style: italic;
+}
