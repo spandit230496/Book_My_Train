@@ -309,7 +309,7 @@ function getConnectedSeats(seatsMatrix, i, j, userSeatsCount) {
 
 
 
-let port = process.env.PORT;
+let port = process.env.PORT||5000;
 if(port == null || port == "") {
     port = port;
 }
