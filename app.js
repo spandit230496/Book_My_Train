@@ -75,7 +75,7 @@ app.get('/train/:trainNumber', function(req, res) {
     Train.find({}).then(async foundTrains => {
 
         //finding train using train number
-        let trainId = foundTrains.findIndex(t => {
+        let trainIdx = foundTrains.findIndex(t => {
             return t.trainNumber === trainNumber;
         });
 
